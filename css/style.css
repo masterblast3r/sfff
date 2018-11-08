@@ -1,0 +1,95 @@
+/* END font face */
+
+body {
+  font-family: 'Lora', serif;
+  background: #f4eded;
+}
+​
+input, input[type="email"], input[type="text"] {
+  font-family: 'Lora', serif;
+}
+/* END font face */
+
+
+/* #2 Main and Structure
+================================================== */
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol {
+  color: #2a2b2b;
+  font-family: 'Lora', serif;
+}
+
+p {
+  font-size: 1.4em;
+  margin-bottom: 1.6em;
+  line-height: 1.7em;
+}
+
+p img {
+  margin-bottom: 0;
+}
+
+.Title {
+  position: relative;
+  top: -10em;
+  height: 0;
+  padding-left: 4em;
+}
+
+.Title h1 {
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: -5em;
+  font-size: 4.2em;
+  line-height: 1em;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #f4eded;
+    color: black;
+}
+
+.top-bar, .top-bar ul li a {
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+  max-width: 115px;
+  margin-top: -37px;
+}
+
+.blog-post h3 {
+  text-align: center;
+  margin: 1em 0 1.7em 0;
+}
+
+.social-footer {
+  padding: 1rem;
+  background: $dark-gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .social-footer-icons {
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: 1.3rem;
+      color: $white;
+
+      &:hover {
+        color: darken($dark-gray, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
+}
+
+.underlines {
+  padding-bottom: 2px;
+  border-bottom: 5px solid #35c3b5;
+}
